@@ -43,5 +43,3 @@ Subir los archivos `index.html` y `styles.css` a un repositorio en GitHub y comp
 - [Documentación de CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - [Guía de Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Guía de Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-
-## Ejemplo
