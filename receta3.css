@@ -38,7 +38,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #FFF5EE;
@@ -86,5 +86,14 @@ body {
 .section-form {
     font-family: Arial, sans-serif;
     background-color: #FFF5EE;
+    margin-bottom: 30px;
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF6347;
+    color: white;
+    width: 100vw;
+    bottom: 0;
+}
