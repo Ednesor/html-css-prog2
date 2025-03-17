@@ -2,7 +2,7 @@ const navBar = document.querySelector('.navbar');
 
 const lista = document.createElement('ul');
 
-const urlPagina = ["/index.html", "/pagina1.html", "/pagina2.html", "/receta3.html"];
+const urlPagina = ["./index.html", "./pagina1.html", "./pagina2.html", "./receta3.html"];
 const nombreLink = ["Inicio", "Pagina 1", "Pagina 2", "Pagina 3"];
 
 for (let i = 1; i <= 4; i++) {
