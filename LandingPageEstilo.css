@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #fff8f0;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #d35400;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Quienes somos*/
+.somos {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: #fdf2e9;
+  border-radius: 8px;
+}
+
+.somos h2 {
+  color: #c0392b;
+  margin-bottom: 10px;
+}
+
+.somos p {
+  margin-bottom: 15px;
+}
+
+
+
+/* Servicios */
+.servicios {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: #fcebd1;
+  border-radius: 8px;
+}
+
+.servicios h2 {
+  color: #c0392b;
+  margin-bottom: 10px;
+}
+
+.servicios ul {
+  list-style: disc inside;
+  margin-bottom: 15px;
+}
+
+.servicios li {
+  margin-bottom: 8px;
+}
+
+/* beneficios */
+.beneficios {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.beneficios h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.beneficios ul {
+  list-style: none;
+}
+
+.beneficios li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Suscripción */
+.cuenta {
+  background-color: #fcebd1;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cuenta h2 {
+  color: #c0392b;
+  margin-bottom: 10px;
+}
+
+.cuenta p {
+  margin-bottom: 20px;
+}
+
+.cuenta input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.cuenta button {
+  padding: 10px 20px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cuenta button:hover {
+  background-color: #d35400;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  background-color: #d35400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.login-btn:hover {
+  background-color: #d35400;
+}
+
