@@ -1,0 +1,124 @@
+recetas.css ()
+:root {
+  --primary: #e67e22;
+  --secondary: #2c3e50;
+  --accent: #c0392b;
+  --light-bg: #fff8f0;
+  --text: #333;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-bg);
+  color: var(--text);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  background: var(--secondary);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--primary);
+}
+
+.section-title h1 {
+  text-align: center;
+  color: var(--accent);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: var(--primary);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+ol {
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+ol li {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--secondary);
+  color: white;
+  margin-top: 2rem;
+  border-radius: 0 0 10px 10px;
+}
+
+@media (max-width: 768px) {
+  .section-title h1 {
+    font-size: 2rem;
+  }
+  
+  .navbar ul {
+    gap: 1rem;
+  }
+}
